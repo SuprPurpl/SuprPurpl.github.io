@@ -4,10 +4,37 @@
   <head>
     <title>More CSS...</title>
        <link href="../css/Style1.css" type="text/css" rel="stylesheet" />
+       <style type+"text/css">
+          p#Demo {
+            color: rgb(255, 170, 294);
+            font-family: cursive;
+            font-size: 150%
+          }
+
+       </style>
   </head>
 
   <body>
-    
+    <h2>External and Internal CSS</h2>
+    <p>
+      So, before I show you how I did the thing with the font,<br />
+      I'll explain Ex. and Int. CSS.<br />
+      So Internal CSS, is written in the source-code for <b>one</b> page,<br />
+      the trick I did with the Font was achieved with Internal CSS use.<br />
+      What if you want to have a bunch of setting that you can just<br />
+      copy and paste onto every page you ever make...ever?<br />
+      Well, that's when you'd use External CSS,<br />
+      if you've been paying attention you'll'd've (that's right, "you'll'd've" is a real word)<br />
+      noticed that all of the pages on this site look the same,<br />
+      that's due to the Style Sheet I've been linking into the <code>&lt;head&gt;</code> of each page.<br />
+      That style sheet is called "../css/Style1.css" (go find it in the source-code).<br />
+      That .css file has all the info on what I want the page to like,<br />
+      throwing a link into the head of each file is way faster than<br />
+      typing up EVERY. SINGLE. CHANGE. into EVERY. SINGLE. PAGE.</p>
+      <p id="Demo">Groovy, huh?</p>
+      
+
+
 
 
   </body>
