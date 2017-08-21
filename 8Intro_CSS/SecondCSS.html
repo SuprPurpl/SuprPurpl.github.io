@@ -4,7 +4,7 @@
   <head>
     <title>More CSS...</title>
        <link href="../css/Style1.css" type="text/css" rel="stylesheet" />
-       <style type+"text/css">
+       <style type="text/css">
           p#Demo {
             color: rgb(255, 170, 294);
             font-family: cursive;
@@ -31,7 +31,45 @@
       That .css file has all the info on what I want the page to look like,<br />
       throwing a link into the head of each file is way faster than<br />
       typing up EVERY. SINGLE. CHANGE. into EVERY. SINGLE. PAGE.</p>
-      <p id="Demo">Groovy, huh?</p>
+      <p id="Demo">Groovy, huh?</p><br /><br />
+      <u><b>Examples:</b></u><p><br /><br /><br />
+
+        <u>The <i>external</i> link looks like this:</u><br /><br />
+        <code>
+          &lt;head&gt;
+            &lt;title&gt;More CSS...&lt;/title&gt;
+               &lt;link href="../css/Style1.css" type="text/css" rel="stylesheet" /&gt;
+         &lt;/head&gt;</code><br />
+         (The link is the bit within the "Link" tag)<br />
+         I gave you the entire head section too look at so you know <b>Where</b> that link goes.<br /><br />
+
+
+           <u>The <i>internal stuff looks like this:</i></u><br /><br />
+
+           <code>&lt;head&gt;
+             &lt;title&gt;More CSS...&lt;/title&gt;
+             &lt;style type="text/css"&gt;
+                   p#Demo {
+                     color: rgb(255, 170, 294);
+                     font-family: cursive;
+                     font-size: 150%
+                   }
+                &lt;/style&gt;
+           &lt;/head&gt;</code><br />
+           Once again I gave you the whole head section so you can see what's where,<br />
+           Now, this is really straight-forward, "<code>p#Demo</code>" is our selector (thing we wanna change)<br />
+           and if you take a look under it, you can see that I messed with<br />
+           the color, the kind of font and the size of the font, but that's only half of what went on.<br />
+           The other half of that change looks like this...<br /><br />
+           <code>&lt;p id="Demo"&gt;Ooh look! this sentence is in a different color and the font is HUGE!?&lt;/p&gt;</code><br />
+           Note that the <code>&lt;p&gt;</code> tag matches the Selector (aiming it directly at <b>that</b> line)<br />
+           
+
+
+
+
+
+
 
 
 
