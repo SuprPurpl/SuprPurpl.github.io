@@ -1,0 +1,49 @@
+<html>
+		<head>
+				<title>Images</title>
+				<link href="../css/Style1.css" type="text/css" rel="stylesheet" />
+		</head>
+		<body>
+				<div><ins><h2>Images</h2></ins><p>
+					<br />
+				Firstly, before we learn about images...<br />
+				<img src="../img/CutePig1.jpg" alt="A cute little piggy" width="300" height="300" title="This lil' piggy is cute!" /><br />
+				Yeah, yeah, the pig's cute, but back to business!<br />
+				The line responsible:<br />
+				<code>&lt;img src="img/CutePig1.jpg" alt-"A cute little piggy" width="300" height="300" title="This lil' piggy is cute!" /&gt;</code><br /><br />
+				Ok, I'm gonna break down the above element:
+				<ol>
+					<li><q><code>src=</code></q>: this is the image's source, hence why its followed by <code>"img/CutePig1.jpg"</code></li>
+					<li><q><code>alt=</code></q>: this provides text/description for the picture if you can't see it.</li>
+					<li>The height and width obviously govern the size of the image...like, duh</li>
+					<li><q><code>title=</code></q>: this makes "This piggy lil' is cute" appear when you hover the cursor over the image.</li>
+				</ol><br />
+				<h3><ins>Image Placement</ins></h3>
+				I'm not gonna make <em>loads</em> of examples, but bascially,<br />
+				the picture will show up in different places depending<br />
+				on where you place the element.<br /><br />
+				<ol>
+					<li><ins>If you want the image <b>above</b> the text:</ins></li>
+						<dd><code>&lt;img src="img/CutePig1.jpg" alt="A cute little piggy" width="300" height="300" title="This lil' piggy is cute!" /&gt;</code><br /
+								<code>&lt;p&gt;</code></dd>
+					<li><ins>If you want the text to start <b>alongside</b> the iamge:</ins></li>
+						<dd><code>&lt;p&gt;</code></dd><code>&lt;img src="img/CutePig1.jpg" alt="A cute little piggy" width="300" height="300" title="This lil' piggy is cute!" /&gt;</code></dd><br />
+					<li><ins>If you want the image <b>mid-way through</b> the paragraph/text:<ins></li>
+						<dd>Blah, Blah, Blah, Pigs, Blah <code>&lt;p&gt;</code></dd><code>&lt;img src="img/CutePig1.jpg" alt="A cute little piggy" width="300" height="300" title="This lil' piggy is cute!" /&gt;</code>
+					Blah, Blah, Blah, Pigs, Blah</dd>
+				</ol>
+				Get it? Good.<br />
+				You can also choose what side of the text the image is on using the <code>align=</code> attribute.<br />
+				Just add (<code>align="right"</code>) or (<code>align="left"</code>)it into the element...<br />
+				AND you can align the first line of text with the Top, Middle or Bottom of the image,<br />
+				by using (<code>align="top"</code>) or (<code>align="middle"</code>) or (<code>align="bottom"</code>)...<br />
+				Still easy? Good.<br />
+				Remember to save images in the correct format and you should be fine.<br /><br />
+				Using <code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code>, you can insert images with captions, like so:<br />
+				<figure>
+				<img src="../img/CutePig3.jpg" alt="Another cute pig, with boots" width="240" height="350"/>
+				<br />
+				<figcaption>A super-cute pig in little red wellies!</figcaption>
+				</figure></p><br />
+			</body>
+</html>

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+		<head>
+				<title>HtmlCssStuff</title>
+<link href="css/Style1.css" type="text/css" rel="stylesheet" />
+		</head>
+		<body>
+				<div><h1>Knowledge</h1>
+				<p>The story so far...</p><br />
+				<ins><h3 id="top">Index</h3></ins>
+				<a href="1Text/index.html">Text</a><br />
+				<a href="2Lists/index.html">Lists</a><br />
+				<a href="3Links/index.html">Links</a><br />
+				<a href="4Images/index.html">Images</a><br />
+				<a href="5Tables/index.html">Tables</a><br />
+				<a href="6Forms/index.html">Forms</a><br />
+				<a href="7Video_and_Audio/index.html">Video and Audio</a><br />
+				</div>
+				<hr />
+				<!-- End of index -->
+				<div><ins><h2 id="Text">Text</h2></ins>
+				<a href="#Top">Top</a><br />
+				<p>
+				<code>&lt;p&gt;</code>: Starts a new paragraph<br />
+				<code>&lt;b&gt;</code>: Makes words <b>Bold</b><br />
+				<code>&lt;i&gt;</code>: <i>Italicises</i> words<br />
+				<code>&lt;sup&gt;</code>: Adds <sup>Superscript</sup><br />
+				<code>&lt;sub&gt;</code>: Adds <sub>Subscript</sub><br />
+				<code>&lt;br /&gt;</code>: Creates line breaks<br />
+		    <code>&lt;hr /&gt;</code>: Creates a dividing line<br />
+				<code>&lt;em&gt;</code>: <q>I think <em>Emily</em> was first.</q><br />
+				<code>&lt;strong&gt;</code>: <q><strong>Choking Hazard:</strong> Contains small pieces!</q><br />
+				<code>&lt;blockquote&gt;</code>: Used for longer quotes (will be added to later)<br />
+				<code>&lt;q&gt;</code>: Used for <q>Shorter quotes...</q><br />
+				<code>&lt;abbr&gt;</code>: Labels Abbreviations like so (<abbr title="Professor">Prof</abbr>)<br />
+				<code>&lt;cite&gt;</code>: Used to Cite references from <cite>Whatever Goddamn Book You Want</cite><br />
+				<code>&lt;dfn&gt;</code>: Defines stuff! (more italics haha)
+				<q>A <dfn>black hole</dfn> is a region of space which nothing, not even light, can escape.</q><br />
+				<code>&lt;address&gt;</code>: Contains the page authors address/contact details <br />
+				<code>&lt;ins&gt;</code>: Shows when content has been <ins>inserted</ins> into a document<br />
+				<code>&lt;del&gt;</code>: Omits incorrect <del>Content</del><br />
+				<code>&lt;s&gt;</code>: Used to mark information as incorrect without <s>deleting it</s><br /><a href="#Top">Top</a><br /></p>
+				<hr /></div>
+				<!-- End of Text section -->
+				<div><ins><h2 id="Lists">Lists</h2></ins>
+				<a href="#Top">Top</a><br />
+				<p>
+				<code>&lt;ol&gt;</code>: Used to make ordered lists<br />
+				<code>&lt;ul&gt;</code>: Used to make unordered lists<br />
+				<code>&lt;li&gt;</code>: Entries in lists will be flanked by this tag<br />
+				<code>&lt;dl&gt;</code>: Used to make a definition list<br />
+				<code>&lt;dt&gt;</code>: Contains the term being defined<br />
+				<code>&lt;dd&gt;</code>: Contains the definition of the term<br /><br />
+
+				<b><i>Ex.1</i></b><br />
+				<ins>Ordered List:</ins><br />
+				<q>Loading a Sidearm</q>
+				<ol>
+					<li>Keep muzzle aimed at the ground/down-range and observe correct Trigger discipline <strong>throughout</strong> the procedure</li>
+					<li>Check the breach for any unfired rounds (Remove if found)</li>
+					<li>Insert magazine</li>
+					<li>Firmly pull back on the slide, placing a round in the chamber</li>
+					<li>Confirm that the saftey is disengaged</li>
+			 </ol>
+			 The weapon is now loaded and ready to fire.<br /><br />
+			 <b><i>Ex.2</i></b><br />
+			 <ins>Unordered List:</ins><br />
+			 <q>Shopping list</q>
+			 <ul>
+				 <li>Milk</li>
+				 <li>Butter</li>
+				 <li>Eggs</li>
+				 <li>Bread</li>
+				 <li>72,000 Squid Livers</li>
+				 <li>1 Nuclear-Core Transwarp Generator</li>
+			</ul>
+      Pretty standard shopping list.<br /><br />
+
+			<b><i>Ex.3</i></b><br />
+			<ins>Definition List:</ins><br />
+			<q>Standard Daisho</q>
+			<dl>
+				<dt>Katana</dt>
+					<dd>Historically, katana were one of the traditionally
+						made Japanese swords<br /> that were used by the samurai of ancient and feudal Japan.<br />
+						The katana is characterized by its distinctive appearance: a curved,<br />
+						 single-edged blade with a circular or squared guard and<br /> long grip to accommodate two hands.</dd><br />
+				<dt>Wakizashi</dt>
+				  <dd>The wakizashi is one of the traditionally made Japanese
+						swords worn by the samurai class in feudal Japan.<br />
+						 The Wakizashi is shorter than a Katana and longer than a Tanto.</dd>
+			</dl>
+			A very brief description, I know...it's just an example, gimme a break.<br /><br />
+			Just a quick heads-up, you can put lists inside <em>other</em> lists.<br />
+			Just put another <code>&lt;ol&gt;</code>, <code>&lt;ul&gt;</code> or <code>&lt;dl&gt;</code> inside your <code>&lt;li&gt;</code> tags.<br /><br />
+
+			<b><i>Ex.4</i></b><br />
+			<ins>Nested List (List-ception):</ins><br />
+			<q>Guardian classes and their subclasses</q>
+			<ol>
+				<li><ins><h5 id="Hunter">Hunter</h5></ins>
+					<ul>
+						<li>Gunslinger</li>
+						<dd>A Hunter that has studied the Ballistic capabilities of Solar light.<br />
+							Gunslingers can summon a <q>Golden Gun</q> to decimate their foes.</dd>
+						<li>Bladedancer</li>
+						<dd>A Hunter that has studied the Offensive capabilities of Arc light.<br />
+							Bladedancers can trigger a physically enhanced state.<br />
+							Armed with a pair of <q>ArcBlades</q>, Bladedancers are truly dangerous adversaries.</dd>
+						<li>Nightstalker</li>
+						<dd>A Hunter that has studied the Binding capabilites of Void light.<br />
+							Nightstalkers can summon a <q>Void-Bow</q> to bind their foes in place.<br />
+						  Beware the Nightstalker. Where one walks, others will follow.</dd>
+					</ul>
+				</li>
+				<li><ins><h5 id="Titan">Titan</h5></ins>
+					<ul>
+						<li>Defender</li>
+						<dd>A Titan that has studied the Defensive properties of Void light.<br />
+							Defenders can summon the <q>Ward of Dawn</q>, to protect their allies.</dd>
+						<li>Striker</li>
+						<dd>A Titan that has studied the Devastating capabilities of Arc light.<br />
+							Strikers rain death from above with the <q>Fist of Havoc</q>.</dd>
+						<li>Sunbreaker</li>
+						<dd>A Titan that has studied the Offensive capabilities of Solar light.<br />
+							Sunbreakers can summon the <q>Hammer of Sol</q> to destroy the competition.</dd>
+      		</ul>
+				</li>
+				<li><ins><h5 id="Warlock">Warlock</h5></ins>
+					<ul>
+						<li>Voidwalker</li>
+						<dd>A Warlock that has studied the Destructive capabilities of Void light.<br />
+							Voidwalkers can cast a large, explosive Void light projectile called a <q>Nova Bomb</q> to devastating effect.</dd>
+						<li>Sunsinger</li>
+						<dd>A Warlock that has studied the Restorative properties of Solar light.<br />
+							Sunsingers surround themsleves in Solar light, strengthening themselves exponentially.<br />
+							Sunsingers have also been known to return from the dead.</dd>
+						<li>Stormcaller</li>
+						<dd>A Warlock that has studied the Crippling capabilities of Arc light.<br />
+							Stormcallers enter the <q>Stormtrance</q> to call upon the power of lightning.<br />
+						Fear the Stormcallers, for destruction follows close behind them.</dd>
+					</ul>
+				</li>
+			</ol>
+			Damn, that was a big one.<br />
+			That covers lists, onward!<br /><a href="#Top">Top</a><br /></p>
+			<hr /></div>
+			<!-- End of Lists -->
+			<div><ins><h2 id="Links">Links</h2></ins>
+			<a href="#Top">Top</a><br />
+			<p>
+			A'ight, so this section is going to be a little more descriptive.<br /><br />
+			<ins>Writing Links:</ins><br />
+			So, I'll place a link to Bungie's mainsite into the word
+			<q><a href="https://www.bungie.net">BUNGIE</a></q>.<br />
+			As you can see (and hopefully test), the word Bungie will open Bungie's main site when clicked.(No new window, just straight to Bungie)<br />
+			The line responsible:<code>&lt;a href="https://www.Bungie.net"&gt;BUNGIE&lt;/a&gt;</code><br />
+			So it's sorta like you've put a mask over <q>https://www.bungie.net</q> and disguised it as "BUNGIE".<br />
+			You can also place mail links like <q><a href="mailto:verakai141@gmail.com">Email Author</a></q><br />
+			Clicking on that link opens your mail program and adds my email address as the recipient,<br />
+			this is helpful for obvious reasons.<br />
+			The line responsible:<code>&lt;a href="mailto:verakai141@gmail.com"&gt;Email Author&lt;/a&gt;</code><br /><br />
+			Now let's say I wanted that Bungie link to send me to Bungie,<br />
+			but to do so by opening a new window, I'd just code it differently.<br />
+			The new line:<code>&lt;a href="http://www.bungie.net" target="_blank"&gt;Bungie&lt;/a&gt;</code><br />
+			Easy, right?<br />
+			You can also link to specific parts in the same page, try the links below?<br />
+			<a href="#Hunter">Hunter</a><br />
+			<a href="#Titan">Titan</a><br />
+			<a href="#Warlock">Warlock</a><br />
+			<a href="#Top">Top</a>
+		  </p>
+			<hr /></div>
+			<!-- End of Links-->
+			<div><ins><h2 id="Images">Images</h2></ins><p>
+				<a href="#Top">Top</a><br />
+			Firstly, before we learn about images...<br />
+			<img src="img/CutePig1.jpg" alt="A cute little piggy" width="300" height="300" title="This lil' piggy is cute!" /><br />
+			Yeah, yeah, the pig's cute, but back to business!<br />
+			The line responsible:<br />
+			<code>&lt;img src="img/CutePig1.jpg" alt-"A cute little piggy" width="300" height="300" title="This lil' piggy is cute!" /&gt;</code><br /><br />
+			Ok, I'm gonna break down the above element:
+			<ol>
+				<li><q><code>src=</code></q>: this is the image's source, hence why its followed by <code>"img/CutePig1.jpg"</code></li>
+				<li><q><code>alt=</code></q>: this provides text/description for the picture if you can't see it.</li>
+				<li>The height and width obviously govern the size of the image...like, duh</li>
+				<li><q><code>title=</code></q>: this makes "This piggy lil' is cute" appear when you hover the cursor over the image.</li>
+			</ol><br />
+			<h3><ins>Image Placement</ins></h3>
+			I'm not gonna make <em>loads</em> of examples, but bascially,<br />
+			the picture will show up in different places depending<br />
+			on where you place the element.<br /><br />
+			<ol>
+				<li><ins>If you want the image <b>above</b> the text:</ins></li>
+					<dd><code>&lt;img src="img/CutePig1.jpg" alt="A cute little piggy" width="300" height="300" title="This lil' piggy is cute!" /&gt;<br />&lt;p&gt;</code></dd>
+				<li><ins>If you want the text to start <b>alongside</b> the iamge:</ins></li>
+				  <dd><code>&lt;p&gt;</code></dd><code>&lt;img src="img/CutePig1.jpg" alt="A cute little piggy" width="300" height="300" title="This lil' piggy is cute!" /&gt;</code></dd><br />
+				<li><ins>If you want the image <b>mid-way through</b> the paragraph/text:<ins></li>
+				  <dd>Blah, Blah, Blah, Pigs, Blah <code>&lt;p&gt;</code></dd><code>&lt;img src="img/CutePig1.jpg" alt="A cute little piggy" width="300" height="300" title="This lil' piggy is cute!" /&gt;</code>
+				Blah, Blah, Blah, Pigs, Blah</dd>
+		 </ol>
+Get it? Good.<br />
+You can also choose what side of the text the image is on using the <code>align=</code> attribute.<br />
+Just add (<code>align="right"</code>) or (<code>align="left"</code>)it into the element...<br />
+AND you can align the first line of text with the Top, Middle or Bottom of the image,<br />
+by using (<code>align="top"</code>) or (<code>align="middle"</code>) or (<code>align="bottom"</code>)...<br />
+Still easy? Good.<br />
+Remember to save images in the correct format and you should be fine.<br /><br />
+Using <code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code>, you can insert images with captions, like so:<br />
+<figure>
+	<img src="img/CutePig3.jpg" alt="Another cute pig, with boots" width="240" height="350"/>
+	<br />
+	<figcaption>A super-cute pig in little red wellies!</figcaption>
+</figure></p><br />
+<a href="#Top">Top</a>
+<hr /></div>
+<!-- End of images-->
+<div><ins><h2 id="Tables">Tables</h2></ins><p>
+<a href="#Top">Top</a><br /><br />
+Ok, tables, you know what tables do...<br />
+They're just big bunches of info that have been arranged nicely.<br /><br />
+<ins>Tags you're gonna be using:</ins><br />
+<code>&lt;table&gt;</code>: Signifies the start of a table.<br />
+<code>&lt;tr&gt;</code>: Indicates the start of each row.<br />
+<code>&lt;td&gt;</code>: Stands for (table data) it's what goes in the boxes.<br />
+<code>&lt;th&gt;</code>: Table heading (Names for rows and column contents).<br />
+<code>&lt;thead&gt;</code>: Makes table headings.<br />
+<code>&lt;tbody&gt;</code>: Governs what's within the main body of the table.<br />
+<code>&lt;tfoot&gt;</code>: Final results and foot notes go in the footer.<br /><br />
+Here's what a table looks like:<br />
+<table width="500" cellpadding="1" cellspacing="2" border="1" bgcolor="efefef">
+	<thead>
+		<tr>
+      <td bgcolor="#cccccc"</td>
+			<th bgcolor="#cccccc" scope="col">Hand-Cannon</th>
+			<th bgcolor="#cccccc" scope="col">Scout-Rifle</th>
+			<th bgcolor="#cccccc" scope="col">Auto-Rifle</th>
+			<th bgcolor="#cccccc" scope="col">Pulse-Rifle</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th bgcolor="#cccccc" scope="row">Impact:</th>
+			<th>High</th>
+			<th>Mid</th>
+			<th>Mid</th>
+			<th>Low</th>
+		</tr>
+		<tr>
+			<th bgcolor="#cccccc" scope="row">Range:</th>
+			<th>Close</th>
+			<th>Mid-Long</th>
+			<th>Close-Mid</th>
+			<th>Close-Mid</th>
+		</tr>
+		<tr>
+			<th bgcolor="#cccccc" scope="row">RoF:</th>
+			<th>Slow</th>
+			<th>Medium</th>
+			<th>Fast</th>
+			<th>Medium</th>
+		</tr>
+		<tr>
+			<th bgcolor="#cccccc" scope="row">Mag Size:</th>
+			<th>6-13 rounds</th>
+			<th>10-24 rounds</th>
+			<th>20-50+ rounds</th>
+			<th>17-32 round</th>
+		</tr>
+		<tr>
+			<th bgcolor="#cccccc" scope="row">Reload Speed:</th>
+			<th>Slow/Variable</th>
+			<th>Medium</th>
+			<th>Medium</th>
+			<th>Fast</th>
+		</tr>
+	</tbody>
+	</table>
+	I also used the  attributes <code>cellpadding</code>, <code>cellspacing</code>, <code>border</code>, <code>bgcolor</code>.<br />
+	Dont forget <code>colspan</code> and <code>rowspan</code> for obvious reasons.<br />
+Look at the Source code for a memory jog, I guess...?<br />
+</p>
+<a href="#Top">Top</a>
+<hr />
+<!-- End of Tables-->
+<ins><h2 id="Forms">Forms</h2></ins><p><br />
+	<a href="#Top">Top</a>
+	I'm just going to code all of the types of form I can,<br />
+	I'll make the lines visible too:<br /><br />
+<ol>
+	<li>
+	  <ins>Text input:</ins><br />
+	<form action="http://www.example.com/login.php">Username:<input type="text" name="username" size="15" maxlength="30" />
+	</form>
+	<ins>Looks like this:</ins><br />
+	<code>&lt;form action="http://www.example.com/login.php"&gt;Username:&lt;input type="text" name="username" size="15" maxlength="30" /&gt;
+	&lt;/form&gt;</code></li><br />
+	<li>
+		<ins>Password input:</ins><br />
+	<input type="password" name="password" size="15" maxlength="30" /><br /><br />
+	<ins>Looks like this:</ins><br />
+	<code>&lt;input type="password" name="password" size="15" maxlength="30" /&gt;</code></li><br />
+	<li>
+		<ins>Textarea input:</ins><br />
+<textarea name="comments" cols="20" row="4">Answers here...</textarea><br /><br />
+  <ins>Looks like this:</ins><br />
+	<code>&lt;textarea name="comments" cols="20" row="4"&gt;Answers here...&lt;/textarea&gt;</code></li><br />
+	<li>
+		<ins>Radio input:</ins><br />
+		<input type="radio" name="genre" value="rock" check="checked" /> Rock
+		<input type="radio" name="genre" value="pop" check="checked" /> Pop
+		<input type="radio" name="genre" value="jazz" check="checked" /> Jazz</
+	<br /><br /><br />
+    <ins>Looks like this:</ins><br />
+		<code>&lt;input type="radio" name="genre" value="rock" check="checked" /&gt; Rock<br />
+		&lt;input type="radio" name="genre" value="pop" check="checked" /&gt; Pop<br />
+		&lt;input type="radio" name="genre" value="jazz" check="checked" /&gt; Jazz</code><br /></li><br />
+		<li>
+			<ins>checkbox input:</ins><br />
+			<input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+			<input type="checkbox" name="service" value="lastfm" checked="checked" /> Last.fm
+			<input type="checkbox" name="service" value="spotify" checked="checked" /> Spotify
+			<br /><br />
+		<ins>Looks like this:</ins><br />
+		<code>&lt;input type="checkbox" name="service" value="itunes" checked="checked" /&gt; iTunes<br />
+		&lt;input type="checkbox" name="service" value="lastfm" checked="checked" /&gt; Last.fm<br />
+		&lt;input type="checkbox" name="service" value="spotify" checked="checked" /&gt; Spotify</code></li><br />
+		<li>
+			<ins>Select (Drop down menu) input:</ins><br /><br />
+			What device do you surf the internet on most?<br />
+			<select name="devices">
+				<option value="smart phone">Smartphone</option>
+				<option value="computer">Computer</option>
+				<option value="telepathic squid-monster">Telepathic Squid-Monster</option>
+			</select><br /><br />
+			<ins>Looks like this:</ins><br />
+			<code>&lt;select name="devices"&gt;<br />
+ 			 &lt;option value="smart phone"&gt;Smartphone&lt;/option&gt;<br />
+ 			 &lt;option value="computer"&gt;Computer&lt;/option&gt;<br />
+ 			 &lt;option value="telepathic squid-monster"&gt;Telepathic Squid-Monster&lt;/option&gt;&lt;/select&gt</code><br /><br />
+		 </li>
+		 <li>
+ 			<ins>Multiple Select (Drop down menu) input:</ins><br /><br />
+ 			What instruments do you play?<br />
+			You can choose multiple options (Hold cmd)<br />
+			<Select name="instruments" size="5" multiple="multiple">
+				<option value="guitar" selected="selected">Guitar</option>
+					<option value="bass" selected="selected">Bass</option>
+						<option value="drums" selected="selected">Drums</option>
+							<option value="trumpet" selected="selected">Trumpet</option>
+								<option value="sitar" selected="selected">Sitar</option>
+			</select><br /><br />
+			<ins>Looks like this:</ins><br />
+			<code>&lt;Select name="instruments" size="5" multiple="multiple"&gt;<br />
+				&lt;option value="guitar" selected="selected"&gt;Guitar&lt;/option&gt;<br />
+					&lt;option value="bass" selected="selected"&gt;Bass&lt;/option&gt;<br />
+						&lt;option value="drums" selected="selected"&gt;Drums&lt;/option&gt;<br />
+							&lt;option value="trumpet" selected="selected"&gt;Trumpet&lt;/option&gt;<br />
+								&lt;option value="sitar" selected="selected"&gt;Sitar&lt;/option&gt;</code>
+			</select></li><br />
+			<li>
+			<ins>File input:</ins><br /><br />
+			Upload your song in MP3 format:<br />
+			<input type="file" name="user-song" /><br />
+			<input type="submit" value="Upload" /><br /><br />
+			<ins>Looks like this:</ins><br />
+			<code>&lt;input type="file" name="user-song" /&gt;&lt;br /&gt;<br />
+			&lt;input type="submit" value="Upload" /&gt;</code>
+		</li><br />
+		<li>
+			<ins>Submit button input:</ins><br /><br />
+			<input type="text" name="email" /><br />
+			<input type="submit" name="subscribe" value="subscribe" /><br /><br />
+			<ins>Looks like this:</ins><br />
+			<code>&lt;input type="text" name="email" /&gt;&lt;br /&gt;<br />
+			&lt;input type="submit" name="subscribe value="Upload" /&gt;</li><br />
+		</li>
+	</ol><br />
+	BASICALLY THERE ARE LOADS OF DAMN FORM INPUT TYPES,<br />
+	GOOGLE THE REST!!!<br />
+	<a href="#Top">Top</a>
+</p><hr /></div>
+<!-- End of Forms-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</body>
+</hmtl>

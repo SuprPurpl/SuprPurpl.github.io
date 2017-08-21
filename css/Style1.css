@@ -1,0 +1,24 @@
+* {
+  font-family: Arial, Verdana, sans-serif;
+}
+
+body {
+  font-family: arial;
+  background-color: #888;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+}
+h2 {
+  color: rgb(255, 255, 255);
+}
+h3 {
+  color: rgb(255, 255, 255);
+}
+hr {
+  border-color: rgb(0, 0, 0);
+}
+code {
+  color: rgb(51, 210, 73);
+}
